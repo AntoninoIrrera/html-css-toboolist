@@ -14,3 +14,48 @@ h1{
     padding: .5rem;
     vertical-align: bottom;
 }
+
+main{
+   
+    
+    background-color: #f6f8f9;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+
+}
+
+.blocco-centrale{
+    width: 50rem;
+    height: 50rem;
+    margin: 3rem auto;
+    background-color: white;
+    border-radius: .5%;
+    
+}
+
+#bottone-task{
+    background-color: #47adf1;
+    color: white;
+    padding: .3rem;
+    border-radius: 10%;
+}
+
+#bottone-section{
+    background-color: white;
+    color: gray;
+    padding: .3rem;
+    margin-left: .3rem;
+    border-radius: 10%;
+}
+
+.bottoni{
+
+    margin: 1rem 2rem;
+    padding-top: 0.8rem;
+    
+    
+}
+
+hr{
+    border-color: #f6f8f9;
+}

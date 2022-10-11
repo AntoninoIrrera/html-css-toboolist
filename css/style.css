@@ -83,3 +83,33 @@ hr{
     color: white;
     border-radius: 20%;
 }
+.cross{
+    color: red;
+    border: 2px solid red;
+    border-radius: 100%;
+    padding: 1.5px;
+}
+
+.today {
+    padding: 2rem;
+}
+
+p{
+    padding: 1rem;
+}
+.viola {
+    border: 2px solid violet;
+    background-color: violet;
+    color: white;
+    border-radius: 20%;
+}.verde {
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    border-radius: 20%;
+}.arancione {
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+    border-radius: 20%;
+}

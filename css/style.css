@@ -94,6 +94,10 @@ hr{
     padding: 2rem;
 }
 
+.upcoming {
+    padding: 2rem;
+}
+
 p{
     padding: 1rem;
 }
@@ -110,6 +114,18 @@ p{
 }.arancione {
     border: 2px solid orange;
     background-color: orange;
+    color: white;
+    border-radius: 20%;
+}
+.verdino {
+    border: 2px solid lightgreen;
+    background-color: lightgreen;
+    color: white;
+    border-radius: 20%;
+}
+.magenta {
+    border: 2px solid magenta;
+    background-color: magenta;
     color: white;
     border-radius: 20%;
 }

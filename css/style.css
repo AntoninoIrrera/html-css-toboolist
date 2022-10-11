@@ -6,8 +6,9 @@
 }
 
 header{
-    padding: 2rem;
+    padding: 1rem 2rem;
 }
+
 h1{
     display: inline-block;
     font-size: 3rem;
@@ -16,12 +17,9 @@ h1{
 }
 
 main{
-   
-    
     background-color: #f6f8f9;
     padding-top: .5rem;
     padding-bottom: .5rem;
-
 }
 
 .blocco-centrale{
@@ -29,31 +27,29 @@ main{
     height: 80%;
     margin: 3rem auto;
     background-color: white;
-    border-radius: .5%;
-    
+    border-radius: 15px;
+}
+
+.bottoni{
+    margin: 0.8rem 3rem;
+    padding-top: 1rem;
 }
 
 #bottone-task{
     background-color: #47adf1;
     color: white;
-    padding: .3rem;
+    padding: 5px 10px;
+    border: #47adf1 1px solid;
     border-radius: 5px;
 }
 
 #bottone-section{
     background-color: white;
     color: gray;
-    padding: .3rem;
+    border: gray 1px solid;
     margin-left: .3rem;
     border-radius: 5px;
-}
-
-.bottoni{
-
-    margin: 1rem 2rem;
-    padding-top: 0.8rem;
-    
-    
+    padding: 5px 10px;
 }
 
 hr{
@@ -62,6 +58,74 @@ hr{
 
 .new-task{
     padding: 1rem 2rem;
+    padding-top: 2.5rem;
+}
+
+.today {
+    padding: 1rem 2rem;
+}
+
+.upcoming {
+    padding: 1rem 2rem;
+}
+
+p{
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.viola{
+    border: 2px solid violet;
+    background-color: violet;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 10px;
+    border-width: 0;    
+}
+
+.verde{
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 10px;
+    border-width: 0;
+}
+
+.arancione{
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 10px;
+    border-width: 0;
+}
+
+.verdino{
+    border: 2px solid lightgreen;
+    background-color: lightgreen;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 10px;
+    border-width: 0;
+}
+
+.magenta{
+    border: 2px solid magenta;
+    background-color: magenta;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 10px;
+    border-width: 0;
+}
+
+.blu{
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 10px;
+    border-width: 0;
 }
 
 .freccia{
@@ -78,71 +142,10 @@ hr{
     vertical-align: sub;
 }
 
-.blu{
-    border: 2px solid blue;
-    background-color: blue;
-    color: white;
-    border-radius: 25px;
-    padding: 5px 10px;
-    border-width: 0;
-}
 .cross{
     color: red;
     border: 2px solid red;
     border-radius: 100%;
     padding: 1.5px;
     vertical-align: sub;
-}
-
-.today {
-    padding: 1rem 2rem;
-}
-
-.upcoming {
-    padding: 1rem 2rem;
-}
-
-p{
-    padding: 1rem;
-    font-weight: bold;
-}
-.viola {
-    border: 2px solid violet;
-    background-color: violet;
-    color: white;
-    border-radius: 25px;
-    padding: 5px 10px;
-    border-width: 0;    
-}
-.verde {
-    border: 2px solid green;
-    background-color: green;
-    color: white;
-    border-radius: 25px;
-    padding: 5px 10px;
-    border-width: 0;
-}
-.arancione {
-    border: 2px solid orange;
-    background-color: orange;
-    color: white;
-    border-radius: 25px;
-    padding: 5px 10px;
-    border-width: 0;
-}
-.verdino {
-    border: 2px solid lightgreen;
-    background-color: lightgreen;
-    color: white;
-    border-radius: 25px;
-    padding: 5px 10px;
-    border-width: 0;
-}
-.magenta {
-    border: 2px solid magenta;
-    background-color: magenta;
-    color: white;
-    border-radius: 25px;
-    padding: 5px 10px;
-    border-width: 0;
 }

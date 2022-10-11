@@ -25,8 +25,8 @@ main{
 }
 
 .blocco-centrale{
-    width: 50rem;
-    height: 50rem;
+    width: 80%;
+    height: 80%;
     margin: 3rem auto;
     background-color: white;
     border-radius: .5%;
@@ -37,7 +37,7 @@ main{
     background-color: #47adf1;
     color: white;
     padding: .3rem;
-    border-radius: 10%;
+    border-radius: 5px;
 }
 
 #bottone-section{
@@ -45,7 +45,7 @@ main{
     color: gray;
     padding: .3rem;
     margin-left: .3rem;
-    border-radius: 10%;
+    border-radius: 5px;
 }
 
 .bottoni{
@@ -61,7 +61,7 @@ hr{
 }
 
 .new-task{
-    padding: 2rem;
+    padding: 1rem 2rem;
 }
 
 .freccia{
@@ -74,58 +74,75 @@ hr{
     color: green;
     border: 2px solid green;
     border-radius: 100%;
-    padding: 1.5px;    
+    padding: 1.5px;
+    vertical-align: sub;
 }
 
 .blu{
     border: 2px solid blue;
     background-color: blue;
     color: white;
-    border-radius: 20%;
+    border-radius: 25px;
+    padding: 5px 10px;
+    border-width: 0;
 }
 .cross{
     color: red;
     border: 2px solid red;
     border-radius: 100%;
     padding: 1.5px;
+    vertical-align: sub;
 }
 
 .today {
-    padding: 2rem;
+    padding: 1rem 2rem;
 }
 
 .upcoming {
-    padding: 2rem;
+    padding: 1rem 2rem;
 }
 
 p{
     padding: 1rem;
+    font-weight: bold;
 }
 .viola {
     border: 2px solid violet;
     background-color: violet;
     color: white;
-    border-radius: 20%;
-}.verde {
+    border-radius: 25px;
+    padding: 5px 10px;
+    border-width: 0;    
+}
+.verde {
     border: 2px solid green;
     background-color: green;
     color: white;
-    border-radius: 20%;
-}.arancione {
+    border-radius: 25px;
+    padding: 5px 10px;
+    border-width: 0;
+}
+.arancione {
     border: 2px solid orange;
     background-color: orange;
     color: white;
-    border-radius: 20%;
+    border-radius: 25px;
+    padding: 5px 10px;
+    border-width: 0;
 }
 .verdino {
     border: 2px solid lightgreen;
     background-color: lightgreen;
     color: white;
-    border-radius: 20%;
+    border-radius: 25px;
+    padding: 5px 10px;
+    border-width: 0;
 }
 .magenta {
     border: 2px solid magenta;
     background-color: magenta;
     color: white;
-    border-radius: 20%;
+    border-radius: 25px;
+    padding: 5px 10px;
+    border-width: 0;
 }
